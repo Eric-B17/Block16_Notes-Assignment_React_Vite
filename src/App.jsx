@@ -12,8 +12,8 @@ const App = () => {
                   label={cardButtonLabel}/>
 
             <Card title ={"Card 2"}
-            description={"This is the second card's description"}
-            label={"Button 2"}/>
+                  description={"This is the second card's description"}
+                  label={"Button 2"}/>
         </>
 
     );

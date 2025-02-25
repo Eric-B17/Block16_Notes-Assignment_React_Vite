@@ -5,8 +5,8 @@ const Card = (props) => {
         <>
             {/* eslint-disable-next-line react/prop-types */}
             <h1>{props.title}</h1>
-            <p>{}</p>
-            <button>{}</button>
+            <p>{props.description}</p>
+            <button>{props.label}</button>
         </>
     );
 };
